@@ -14,7 +14,8 @@ var HeaderComponent = (function () {
 HeaderComponent = __decorate([
     core_1.Component({
         selector: 'app-header',
-        templateUrl: './header.component.html'
+        templateUrl: './header.component.html',
+        styleUrls: ['./header.component.css']
     })
 ], HeaderComponent);
 exports.HeaderComponent = HeaderComponent;
