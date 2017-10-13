@@ -1,0 +1,15 @@
+footer{
+    align-self: flex-end;
+    background-color:rgb(21, 49, 58);
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+#footer {
+    margin: 0 0 3em 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}

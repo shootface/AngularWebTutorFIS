@@ -24,13 +24,6 @@ form{
     border: #FFFFFF;
     border-radius: 15px;
 }
-footer{
-    align-self: flex-end;
-    background-color:rgb(21, 49, 58);
-    text-align: center;
-    width: 100%;
-    color: white;
-}
 input,select{
     display: block;
     padding: 10px;
@@ -48,14 +41,6 @@ input[type="submit"]{
 }
 input[type="submit"]:active{
     transform: scale(0.97);
-}
-#footer {
-    margin: 0 0 3em 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
 }
 @media(max-width:768px){
     form {

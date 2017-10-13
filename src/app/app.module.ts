@@ -1,5 +1,6 @@
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent }  from './app.component';
 import {HeaderComponent} from './common/header.component';
@@ -9,7 +10,7 @@ import {leftcomponent} from'./common/left.component';
 import {logincomponent} from './common/login.component';
 
 @NgModule({
-  imports:      [ BrowserModule ],
+  imports:      [ BrowserModule, FormsModule ],
   declarations: [ AppComponent, HeaderComponent, FooterComponent, rightcomponent, leftcomponent, logincomponent ],
   bootstrap:    [ AppComponent ]
 })
