@@ -6,16 +6,16 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 var core_1 = require("@angular/core");
-var logincomponent = (function () {
-    function logincomponent() {
+var registrycomponent = (function () {
+    function registrycomponent() {
     }
-    return logincomponent;
+    return registrycomponent;
 }());
-logincomponent = __decorate([
+registrycomponent = __decorate([
     core_1.Component({
-        selector: 'app-login',
-        templateUrl: './login.component.html'
+        selector: 'app-registry',
+        templateUrl: './registry.component.html',
     })
-], logincomponent);
-exports.logincomponent = logincomponent;
-//# sourceMappingURL=login.component.js.map
+], registrycomponent);
+exports.registrycomponent = registrycomponent;
+//# sourceMappingURL=registry.component.js.map

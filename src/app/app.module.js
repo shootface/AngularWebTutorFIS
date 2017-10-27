@@ -9,11 +9,12 @@ var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
 var forms_1 = require("@angular/forms");
 var app_component_1 = require("./app.component");
-var header_component_1 = require("./common/header.component");
-var footer_component_1 = require("./common/footer.component");
+var header_component_1 = require("./common/header/header.component");
+var footer_component_1 = require("./common/footer/footer.component");
 var right_component_1 = require("./common/right.component");
 var left_component_1 = require("./common/left.component");
-var login_component_1 = require("./common/login.component");
+var login_component_1 = require("./common/login/login.component");
+var registry_component_1 = require("./common/registry/registry.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -22,7 +23,7 @@ var AppModule = (function () {
 AppModule = __decorate([
     core_1.NgModule({
         imports: [platform_browser_1.BrowserModule, forms_1.FormsModule],
-        declarations: [app_component_1.AppComponent, header_component_1.HeaderComponent, footer_component_1.FooterComponent, right_component_1.rightcomponent, left_component_1.leftcomponent, login_component_1.logincomponent],
+        declarations: [app_component_1.AppComponent, header_component_1.HeaderComponent, footer_component_1.FooterComponent, right_component_1.rightcomponent, left_component_1.leftcomponent, login_component_1.logincomponent, registry_component_1.registrycomponent],
         bootstrap: [app_component_1.AppComponent]
     })
 ], AppModule);
