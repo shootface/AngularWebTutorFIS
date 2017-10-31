@@ -45,6 +45,9 @@ var usuarioTutor = (function (_super) {
     function usuarioTutor(us, pas) {
         return _super.call(this, us, pas) || this;
     }
+    usuarioTutor.prototype.tipo = function () {
+        return 2;
+    };
     return usuarioTutor;
 }(usuarioBasic));
 var factoryUsuario = (function () {
